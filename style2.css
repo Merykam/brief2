@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+}
+li{
+    display: inline;
+    padding-left: 15px;
+    
+}
+
+.firstUL{
+    padding-top: 80px;
+}
+.secondUL{
+    padding-top: 20px;
+}
+.firsth{
+    padding-top: 15px;
+}
+.log2{
+    padding-top: 15px;
+}
+.choix{
+    border: solid;
+    color: black;
+
+}
