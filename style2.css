@@ -1,32 +1,73 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-
-
 .container{
-    display: flex;
+    width: 85%;
+    margin: auto;
+
+    
 }
+.logo img{
+    width: 56%;
+}
+
+
+
+
+
+.container1{
+    display: flex;
+    align-items: center;
+}
+
 li{
     display: inline;
     padding-left: 15px;
     
 }
 
-.firstUL{
-    padding-top: 80px;
-}
 .secondUL{
     padding-top: 20px;
 }
 .firsth{
     padding-top: 15px;
 }
-.log2{
-    padding-top: 15px;
-}
-.choix{
-    border: solid;
-    color: black;
 
+
+
+.produits{
+    display: flex;
+    padding-top: 20px;
+}
+
+.produits .choix{
+    width: 24%;
+    border:gray 1px solid ;
+    position: relative;
+}
+.produits .choix img{
+    width: 80%;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    
+}
+.produits .choix .contenu{
+    position: absolute;
+    top: 230px;
+    left: 15px;
+}
+.produits .choix2{
+    width: 24%;
+    border:gray 1px solid ;
+}
+.produits .choix3{
+    width: 24%;
+    border:gray 1px solid ;
+}
+.produits .choix4{
+    width: 24%;
+    border:gray 1px solid ;
 }
