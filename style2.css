@@ -9,6 +9,12 @@
 
     
 }
+
+.logo{
+    padding-left: 62px;
+}
+
+
 .logo img{
     width: 56%;
 }
@@ -20,12 +26,28 @@
 .container1{
     display: flex;
     align-items: center;
+    background-color: rgb(226, 201, 201);
 }
 
 li{
     display: inline;
     padding-left: 15px;
     
+    
+}
+ a {
+    text-decoration-line: none;
+    
+    
+   
+}
+a .diff{
+    text-decoration-line: underline;
+    
+}
+a :hover{
+    background-color: rgb(199, 170, 170);
+
 }
 
 .secondUL{
@@ -59,15 +81,65 @@ li{
     top: 230px;
     left: 15px;
 }
+
+
 .produits .choix2{
     width: 24%;
     border:gray 1px solid ;
+    position: relative;
+   
 }
+.produits .choix2 img{
+    width: 80%;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    
+}
+.produits .choix2 .contenu{
+    position: absolute;
+    top: 230px;
+    left: 15px;
+}
+
+
 .produits .choix3{
     width: 24%;
     border:gray 1px solid ;
+    position: relative;
+    
 }
+.produits .choix3 img{
+    width: 80%;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    
+}
+.produits .choix3 .contenu{
+    position: absolute;
+    top: 230px;
+    left: 15px;
+}
+.produits h5{
+    color: blue;
+}
+
+
 .produits .choix4{
     width: 24%;
     border:gray 1px solid ;
+    position: relative;
+}
+.produits .choix4 img{
+    width: 80%;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    
+}
+.produits .choix4 .contenu{
+    position: absolute;
+    top: 230px;
+    left: 15px;
 }
