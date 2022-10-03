@@ -61,28 +61,34 @@ a :hover{
 
 .produits{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 20px;
 }
 
 .produits .choix{
-    width: 24%;
-    border:gray 1px solid ;
+    /* width: 240px; */
+    border: black 1px solid;
     position: relative;
+    /* height: 367px; */
+    margin-left: 30px;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 5px gray;
 }
 .produits .choix img{
-    width: 80%;
-    position: absolute;
-    top: 5px;
-    left: 20px;
+    width: 200px;
+    height: 270px;
+    /* position: absolute; */
+    /* top: 5px;
+    left: 20px; */
     
 }
-.produits .choix .contenu{
-    position: absolute;
-    top: 230px;
-    left: 15px;
+.produits .choix .three{
+    width: 300px;
 }
 
 
+/* 
 .produits .choix2{
     width: 24%;
     border:gray 1px solid ;
@@ -95,52 +101,49 @@ a :hover{
     top: 5px;
     left: 20px;
     
-}
-.produits .choix2 .contenu{
+} */
+/* .produits .choix2 .contenu{
     position: absolute;
     top: 230px;
     left: 15px;
-}
+} */
 
 
-.produits .choix3{
-    width: 24%;
-    border:gray 1px solid ;
-    height: 340px;
-    position: relative;
-    
-}
+/* 
 .produits .choix3 img{
     width: 80%;
     position: absolute;
     top: 5px;
     left: 20px;
     
-}
-.produits .choix3 .contenu{
+} */
+/* .produits .choix3 .contenu{
     position: absolute;
     top: 230px;
     left: 15px;
-}
+} */
 .produits h5{
     color: blue;
 }
 
 
-.produits .choix4{
+/* .produits .choix4{
     width: 24%;
     border:gray 1px solid ;
     position: relative;
-}
-.produits .choix4 img{
-    width: 80%;
-    position: absolute;
-    top: 5px;
-    left: 20px;
-    
-}
-.produits .choix4 .contenu{
+} */
+
+
+/* .produits .choix4 .contenu{
     position: absolute;
     top: 230px;
     left: 15px;
-}
+} */
+/* //resposive designe */
+/* 
+@media(max-with :700px){
+    .container1{
+        display: none;
+    }
+   
+} */
