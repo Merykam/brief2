@@ -106,6 +106,7 @@ a :hover{
 .produits .choix3{
     width: 24%;
     border:gray 1px solid ;
+    height: 340px;
     position: relative;
     
 }
